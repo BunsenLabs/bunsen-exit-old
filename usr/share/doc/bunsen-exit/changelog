@@ -1,0 +1,10 @@
+bunsen-exit (0.01)
+  * recode for systemd
+
+ -- John Crawley <john@rafflesnagoya.com> Tue. 17th Feb. 2015 22:46:41 +0900
+
+cb-exit (0.01) unstable; urgency=low
+
+  * Initial release.
+
+ -- Philip Newborough <corenominal@corenominal.org>  Mon, 16 Apr 2012 11:28:48 +0100

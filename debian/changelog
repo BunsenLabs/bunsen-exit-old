@@ -1,4 +1,11 @@
+bunsen-exit (0.1-1) unstable; urgency=low
+
+  * Switch to dpkg-source 3.0 (quilt) format
+
+ -- John Crawley <john@rafflesnagoya.com>  Tue, 03 Mar 2015 18:10:45 +0900
+
 bunsen-exit (0.01)
+
   * recode for systemd
 
  -- John Crawley <john@rafflesnagoya.com> Tue. 17th Feb. 2015 22:46:41 +0900

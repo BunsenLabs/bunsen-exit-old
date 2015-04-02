@@ -66,6 +66,12 @@ class bl_exit:
         self.button_box.pack_start(self.cancel)
         self.cancel.show()
 
+        #Cancel key (Escape)
+        accelgroup = gtk.AccelGroup()
+        key, mod = gtk.accelerator_parse('Escape')
+        accelgroup.connect_group(key, mod, gtk.ACCEL_VISIBLE, gtk.main_quit)
+        self.window.add_accel_group(accelgroup)
+
         #Logout button
         self.logout = gtk.Button("_Log out")
         self.logout.set_border_width(4)

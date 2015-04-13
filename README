@@ -1,6 +1,11 @@
 bunsen-exit
 ===========
 
+This package is now merged into bunsen-utilities.
+Please post any issues or pull requests there.
+
+######################################################
+
 This is a python utility to call various logout options 
 from a simple gtk popup.
 
